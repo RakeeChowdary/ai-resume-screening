@@ -1,0 +1,48 @@
+# Core
+python==3.10.*
+pandas==2.1.4
+numpy==1.26.2
+scipy==1.11.4
+
+# Machine Learning
+scikit-learn==1.3.2
+tensorflow==2.15.0
+torch==2.1.2
+transformers==4.36.2
+sentence-transformers==2.2.2
+
+# NLP
+nltk==3.8.1
+spacy==3.7.2
+# After install: python -m spacy download en_core_web_sm
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.0
+plotly==5.18.0
+wordcloud==1.9.3
+
+# Web / API
+streamlit==1.29.0
+fastapi==0.108.0
+uvicorn==0.25.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+alembic==1.13.0
+
+# PDF / DOCX parsing
+PyPDF2==3.0.1
+python-docx==1.1.0
+pdfminer.six==20221105
+
+# Utilities
+pydantic==2.5.3
+python-jose==3.3.0
+passlib==1.7.4
+python-dotenv==1.0.0
+requests==2.31.0
+tqdm==4.66.1
+joblib==1.3.2
